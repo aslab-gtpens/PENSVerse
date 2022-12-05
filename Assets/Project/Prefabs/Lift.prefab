@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 7417753915406712067}
   - component: {fileID: 489733476872449346}
   - component: {fileID: 2092705240255425498}
+  - component: {fileID: 725601182304079725}
+  - component: {fileID: 4089166924845165479}
+  - component: {fileID: 3666862366458964671}
   m_Layer: 0
   m_Name: Ubin
   m_TagString: Untagged
@@ -84,6 +87,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &725601182304079725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206351486715089779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.29999998, y: 0.30000007, z: 0.14}
+  m_Center: {x: 0.0010001956, y: -1.06, z: -0.26}
+--- !u!65 &4089166924845165479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206351486715089779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.06, y: 0.30000007, z: 0.30000004}
+  m_Center: {x: -0.12, y: -0.9633206, z: -0.14752175}
+--- !u!65 &3666862366458964671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206351486715089779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.06, y: 0.30000007, z: 0.30000004}
+  m_Center: {x: 0.12, y: -0.9633206, z: -0.14752175}
 --- !u!1 &331470717303761917
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +359,7 @@ GameObject:
   - component: {fileID: 2601189000813182792}
   - component: {fileID: 6360508024203288452}
   - component: {fileID: 5663635664754286210}
+  - component: {fileID: 883491395604722856}
   m_Layer: 0
   m_Name: Pintu Kanan
   m_TagString: Untagged
@@ -389,6 +432,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &883491395604722856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4793302395580198683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30000016, y: 0.3000013, z: 0.30000004}
+  m_Center: {x: -0.14130287, y: -3.8684132, z: 0.15284592}
 --- !u!1 &5537655504015747828
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +456,9 @@ GameObject:
   - component: {fileID: 3707123363946480959}
   - component: {fileID: 2758829856350845834}
   - component: {fileID: 3941063142794109830}
+  - component: {fileID: 8093788875384460732}
+  - component: {fileID: 3981802709977052855}
+  - component: {fileID: 6985558611023422489}
   m_Layer: 0
   m_Name: Ruang Lift
   m_TagString: Untagged
@@ -472,6 +531,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8093788875384460732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537655504015747828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03, y: 0.30000016, z: 0.3000001}
+  m_Center: {x: -0.14, y: -0.024412883, z: -0.15137784}
+--- !u!65 &3981802709977052855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537655504015747828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03, y: 0.30000016, z: 0.3000001}
+  m_Center: {x: 0.15, y: -0.024412883, z: -0.15137784}
+--- !u!65 &6985558611023422489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537655504015747828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30000016, y: 0.03, z: 0.3000001}
+  m_Center: {x: 0.0012745714, y: -0.16, z: -0.15137784}
 --- !u!1 &5779602295826523754
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +581,7 @@ GameObject:
   - component: {fileID: 2201027044590007634}
   - component: {fileID: 554707291428927293}
   - component: {fileID: 8199436208553098884}
+  - component: {fileID: 823706788006754785}
   m_Layer: 0
   m_Name: Pintu Kiri
   m_TagString: Untagged
@@ -555,3 +654,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &823706788006754785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779602295826523754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.29999998, y: 0.30000022, z: 0.29999992}
+  m_Center: {x: 0.16379704, y: -3.8684108, z: 0.1528458}

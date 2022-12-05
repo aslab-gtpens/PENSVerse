@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3060935976766090148}
   - component: {fileID: 200317227836133377}
   - component: {fileID: 5436675938764706327}
+  - component: {fileID: 5505365846328655366}
   m_Layer: 0
   m_Name: Meja Dosen
   m_TagString: Untagged
@@ -86,6 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5505365846328655366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423468379387100302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.81, y: 0.73, z: 1.1407244}
+  m_Center: {x: 0.018891314, y: -0.01992116, z: -0.35359433}
 --- !u!1001 &5423373553560470557
 PrefabInstance:
   m_ObjectHideFlags: 0

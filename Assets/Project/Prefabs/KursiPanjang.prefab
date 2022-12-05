@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7476487597230318303}
   - component: {fileID: 5795581104061279610}
   - component: {fileID: 8613975444420106672}
+  - component: {fileID: 7313302405507950463}
   m_Layer: 0
   m_Name: KursiPanjang
   m_TagString: Untagged
@@ -86,3 +87,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7313302405507950463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821065313800599653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1599734, y: 0.87537605, z: 0.7277932}
+  m_Center: {x: 0.00000071525574, y: 0.43768802, z: 0.033070058}
