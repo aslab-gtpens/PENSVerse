@@ -6,11 +6,13 @@ public class ScreenFader : MonoBehaviour
 {
     CanvasGroup _canvasGroup;
     [SerializeField] float fadeTime;
+    [SerializeField] bool coverOnAwake;
     Coroutine currentCor = null;
 
     private void Awake()
     {
         _canvasGroup = GetComponent<CanvasGroup>();
+        _canvasGroup.alpha = (coverOnAwake)?1:0;
     }
 
     private void Start()
